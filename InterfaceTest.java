@@ -1,9 +1,9 @@
 public class InterfaceTest {
     public static void main(String[] args) {
-        Moveable plane = new Airplane();
+        Movable plane = new Airplane();
         plane.move();
 
-        Moveable car = new Car();
+        Movable car = new Car();
         car.move();
     }
 }
